@@ -1,0 +1,46 @@
+
+.button{
+    padding-top: 1rem;
+}
+
+.heading{
+    padding-top: 1rem;
+}
+
+.text{
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.icon{
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.points{
+    padding-left: 1rem;
+}
+
+.stuck {
+    position: fixed;
+}
+
+.top{
+    padding-top: 1rem;
+}
+
+.amenities{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.amnIcons{
+   padding-left: 5rem;
+}
+
+.centre{
+    padding-top: 0rem;
+}
