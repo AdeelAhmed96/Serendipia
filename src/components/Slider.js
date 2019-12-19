@@ -14,7 +14,6 @@ export default class LightboxExample extends Component {
 
     componentWillReceiveProps(nextProps){
         if(nextProps.open!==this.props.open){
-            //Perform some operation
             this.setState({isOpen: nextProps });
         }
     }
@@ -32,7 +31,7 @@ export default class LightboxExample extends Component {
                         nextSrc={images[(photoIndex + 1) % images.length]}
                         prevSrc={images[(photoIndex + images.length - 1) % images.length]}
                         onCloseRequest={()=>{
-                            this.props.change()
+                             this.props.change()
                             this.setState({isOpen: false})
                         }}
                         onMovePrevRequest={() =>
