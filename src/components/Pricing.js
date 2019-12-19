@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from "react-bootstrap/Card";
@@ -15,7 +14,7 @@ class Pricing extends React.Component{
                 <Card body>
                     <Row className={'top'}>
                         <Col>
-                            <h3 class='heading'>$721/Month</h3>
+                            <h3>$721/Month</h3>
                         </Col>
                     </Row>
 
